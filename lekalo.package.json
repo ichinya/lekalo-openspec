@@ -1,0 +1,12 @@
+{
+  "schema": "lekalo/package/v1",
+  "id": "lekalo-openspec",
+  "kind": "runtime",
+  "version": "0.1.0",
+  "command": [
+    "lekalo-openspec"
+  ],
+  "files": [
+    "Cargo.toml"
+  ]
+}
