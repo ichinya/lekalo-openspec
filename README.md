@@ -12,7 +12,7 @@
 
 Проверка: `cargo test --locked`. Интеграционные проверки filesystem confinement и прежних wire-векторов остаются в основном репозитории. Выбор provider производится через `services.requirements` в пользовательском конфиге.
 
-`ci/package-workflow.yml` — неактивный шаблон CI. Для автоматического запуска его нужно установить в `.github/workflows/` учётными данными с правом `workflow`; текущая публикация проверена локально.
+GitHub Actions запускает [проверки пакета](.github/workflows/ci.yml) для pull request и изменений в `main`.
 
 ## Процессный сервис
 
